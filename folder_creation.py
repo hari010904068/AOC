@@ -18,9 +18,10 @@ parent_dir = r"C:\\Users\\harih\\OneDrive\\Documents\\Hari\\AOC"
 for year in range(2015,2023):
     directory1=str(year)
     for i in range (1,26):
-        directory = "Day" +str(i)  
+        directory = "Day" +str(i)
+        lang = "python"
     # Path
-        path = os.path.join(parent_dir, directory1,directory)
+        path = os.path.join(parent_dir, directory1,directory,lang)
     
     # Create the directory
     # 'ihritik'
